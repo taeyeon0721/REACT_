@@ -1,0 +1,27 @@
+.box{
+  border:1px solid black;
+  width:400px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap:5px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  gap:2px;
+}
+
+.item-img{
+  height:300px;
+}
+
+.win {border:5px solid green;}
+.lose {border:5px solid red;}
+.tie {border:5px solid black;}
