@@ -58,12 +58,12 @@ function App() {
     <div>
       {loading? ( 
         <div className="main">
-          <ClipLoader color="orange" loading={loading} size={150}/> ) : (
+          <ClipLoader color="orange" loading={loading} size={150}/> 
       </div> ) : (
         <div className="main">
           <ClipLoader color="orange" loading={loading} size={150}/>
           <WeatherBox weather={weather}/>
-          <WeatherBtn cities={cities} setCity={setCity}/> 
+          <WeatherBtn cities={cities} setCity={setCity} city={city}/> 
       {/* 1. App.js가 필요한 함수 다 가지고 있음
       2. 부모에서 자식으로 함수도 보내줄 수 있음
       3. 버튼.js는 받은 함수를 이용해서 값을 바꿔줌

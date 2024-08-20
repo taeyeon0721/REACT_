@@ -19,3 +19,19 @@ body{
   border-radius:30px;
   background-color: azure;
 }
+
+.wBtn{
+  display: flex;
+  margin-top: 6px;
+  gap: 2px;
+}
+
+.wBtn button:hover {
+  background-color: rgba(255, 187, 1, 0.5);
+  border-color: rgba(255, 187, 1, 0.5);
+}
+
+.wBtn button.active {
+   background-color: rgba(255, 187, 1, 0.5);
+  border-color: rgba(255, 187, 1, 0.5);
+}
